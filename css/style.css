@@ -1,0 +1,53 @@
+body {
+    background-color: #222831;
+}
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 200px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #393e46;
+    font-size: 30px;
+}
+.aboutme{
+    margin: 10px;
+    color: #eeeeee;
+}
+.aboutme-skills{
+    margin: 10px;
+    color: #eeeeee;
+}
+.body {
+    /* height: 300px; */
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+.body-container{
+    /* height: 300px; */
+    width: 100%;
+    margin: auto;
+    background-color: #00ADB5;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.body-container:hover{
+    transition: 0.5s;
+    opacity: 1;
+}
+.footer {
+    height: 200px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #eeeeee;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        background-color: white;
+    }
+}
