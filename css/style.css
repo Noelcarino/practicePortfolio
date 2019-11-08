@@ -71,9 +71,33 @@ a{
 =====================
 */
 .contactme{
-    height: 50vh;
+    height: 25vh;
     width: 100vw;
     background-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contactme-link-container{
+    height: 50%;
+    width: 25%;
+    margin: auto;
+    background-color: #222831;
+    display: flex;
+}
+.contact-badge-container{
+    height: 53px;
+    width: 53px;
+    margin: auto;
+}
+.contact-badge{
+    margin: auto;
+    height: 50px;
+    width: 50px;
+}
+.contact-badge:hover{
+    height: 53px;
+    width: 53px;
 }
 @media screen and (max-width: 375px){
     body{
