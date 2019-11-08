@@ -1,5 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: #222831;
+    margin: auto;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    /* position: absolute; */
+    position: fixed;
+
+}
+ul{
+    display: flex;
+}
+li{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    margin: auto;
+}
+.li-container{
+    background-color: white;
+    margin: auto;
 }
 .container {
     margin: auto;
@@ -7,45 +33,48 @@ body {
     flex-direction: column;
 }
 .header {
-    height: 200px;
-    width: 90%;
-    margin: 10px auto;
-    background-color: #393e46;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #393e46; */
+    background-image: linear-gradient(150.3deg, #00ADB5 50%, #eeeeee 50%);
     font-size: 30px;
-}
-.aboutme{
-    margin: 10px;
-    color: #eeeeee;
-}
-.aboutme-skills{
-    margin: 10px;
-    color: #eeeeee;
-}
-.body {
-    /* height: 300px; */
-    width: 90%;
-    margin: 10px auto;
     display: flex;
 }
-.body-container{
-    /* height: 300px; */
-    width: 100%;
+.header-container{
     margin: auto;
-    background-color: #00ADB5;
-    transition: 0.5s;
-    opacity: 0.8;
 }
-.body-container:hover{
-    transition: 0.5s;
-    opacity: 1;
-}
-.footer {
-    height: 200px;
-    width: 90%;
-    margin: 10px auto;
-    background-color: #eeeeee;
+/* 
+=====================
+        BODY
+=====================
+*/
+
+.body{
+    height: 100vh;
+    width: 100vw;
 }
 
+#backtohome{
+    height: 50px;
+    width: 125px;
+    background-color: #00ADB5;
+    display: flex;
+    position: fixed;
+    margin: 25px;
+    bottom: 0;
+    right: 0;
+    border-radius: 25px;
+}
+/* 
+=====================
+        FOOTER
+=====================
+*/
+.contactme{
+    height: 50vh;
+    width: 100vw;
+    background-color: #EEEEEE;
+}
 @media screen and (max-width: 375px){
     body{
         background-color: white;
