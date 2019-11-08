@@ -5,6 +5,12 @@ body {
     background-color: #222831;
     margin: auto;
 }
+
+/* 
+=====================
+        NAVBAR
+=====================
+*/
 nav{
     height: 100px;
     width: 100%;
@@ -24,8 +30,17 @@ a{
     margin: auto;
 }
 .li-container{
+    height: 75px;
+    width: 150px;
     background-color: white;
     margin: auto;
+    display: flex;
+    font-size: 25px;
+    transition: 0.3s;
+}
+.li-container:hover{
+    background-color: grey;
+    transition: 0.3s;
 }
 .container {
     margin: auto;
