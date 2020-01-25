@@ -1,71 +1,74 @@
-# Practice Portfolio Project
+# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 
-- This project will be updated over time with various sections.
-- You should work on enhancing this when you need to take a break on your current project.
+[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
 
-### Featureset 1 (Do this when asked to, not before - week 3)
-- Dev story copy
-	- Replace the title "GRAYSCALE" in the main page with your name
-	- add your short blurb about yourself below the title
-	- in the section titled "ABOUT GRAYSCALE" change the title to "ABOUT <your first name>"
-	- Add your developer story to the text below "ABOUT GRAYSCALE"
+## Preview
 
-### Featureset 2 (Do this when asked to, not before - week 5)
-- Hackathon 1 project add
+[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
 
-### Featureset 3 (Do this when asked to, not before - week 7)
-- Google maps api fix
-	- go to <a href="https://cloud.google.com/maps-platform/?apis=maps" target="_blank">google maps api</a> and click "get started"
-	- Enable the google maps platform and click "continue"
-	- select a project and click "Create a new project"
-	- name it 'practice-portfolio'
-	- you likely have no billing set up for google, you'll need to do so next
-		- google maps is free, but they need a CC on hand to make sure you are real and in case you do something dumb like get 1 trillion hits
-		- create billing account
-		- set your country
-		- read/check the terms of service
-		- pick your receipt of email preference (yes/no)
-		- agree and continue
-		- make sure your payment profile is filled out / correct
-		- supply a credit card and associated information
-		- you will get 1 year of credits, after that point you will be employed and probably not care
-	- enable and google maps platform
-		- click next
-		- get your supplied api key
-		- go to the bottom of the index.html file
-		- find the google maps api and add your key in the part labeled YOUR_KEY_HERE
-	- secure
-		- click on api console
-		- under api restrictions, 
-			- click HTTP referrers (web sites)
-			- in the input below, add your domain name with an https protocol (https://yourdomain.ext) (this will allow it to work on your server)
-			- click save
-			- add localhost as into the input (this will allow it to work on your local computer)
-			- click save
-			- allow up to 5 minutes for it to work properly then contact a staff member if it does not
-		- test the page by starting it up (in a server locally) and seeing if the map below pops up.
-	- switch maps to show your city
-		- use the non-minified version of the JS file
-			- in the index.html file, at the bottom, change the script src from grayscale.min.js to grayscale.js
-			- save the index file
-		- change the lat/lon of the google map
-			- find your city or map location of preference by doing a google search for lat and lon.  For example "irvine lat/long"
-				- note that North / East latitudes / longitudes will be written as positive numbers, South/West latitudes / longitudes will be written as negative numbers
-				- eg "117.8265° W" will be "-117.8265"
-			- go to js/grayscale.js
-			- in grayscale.js at about line 40, there is a line that starts with "map.setCenter(new google.maps.LatLng("
-			- change the lat/long given there to your desired lat/long
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
 
+## Status
 
-### Featureset 4 (Do this when asked to, not before - week 7)
-- Hackathon 2 project add
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
 
-### Featureset 5 (Do this when asked to, not before - week 7)
-- Contact form data and validation
+## Download and Installation
 
-### Featureset 6 (Do this when asked to, not before - Week 8)
-- Deploy to server as Dev
-- Deploy to server as Production
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
+* Install via npm: `npm i startbootstrap-agency`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
 
-### Featureset 7 (Do this when asked to, not before - week 9)
-- Contact form email sending (sendgrid)
+## Usage
+
+### Basic Usage
+
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+
+### Advanced Usage
+
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+
+#### Gulp Tasks
+
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
+
+You must have npm and Gulp installed globally on your machine in order to use these features.
+
+## Troubleshooting and Help
+
+Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
+
+**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
