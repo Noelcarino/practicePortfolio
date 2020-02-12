@@ -1,0 +1,40 @@
+.react-logo {
+    background-image: url('../img/logos/react-logo.png');
+    background-size: 100% 100%;
+}
+.js-logo {
+    background-image: url('../img/logos/js-logo.png');
+    background-size: 100% 100%;
+}
+.php-logo {
+    background-image: url('../img/logos/php-logo.png');
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.mysql-logo {
+    background-image: url('../img/logos/mysql-logo.jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sql-logo {
+    background-image: url('../img/logos/sql-logo.png');
+    background-size: 100% 100%;
+}
+.bootstrap-logo {
+    background-image: url('../img/logos/bootstrap.jpeg');
+    background-size: 100% 100%;
+}
+.html-logo {
+    background-image: url('../img/logos/html-logo.png');
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.css-logo {
+    background-image: url('../img/logos/css.png');
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
