@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: black !important;
 }
 
 h1,
@@ -375,7 +375,9 @@ header.masthead .intro-text .intro-heading {
   /* IE 9 */
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #212529;
+  /* background-color: #212529; */
+  background-color: white;
+  border: 5px solid white;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -383,10 +385,14 @@ header.masthead .intro-text .intro-heading {
   z-index: 1052;
   width: 1px;
   height: 75px;
+  border: 5px solid white;
+
   /* IE 9 */
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
-  background-color: #212529;
+  /* background-color: #212529; */
+  background-color: white;
+  border: 5px solid white;
 }
 
 .timeline {
