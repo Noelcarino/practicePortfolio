@@ -192,10 +192,26 @@
             <h3 class="section-subheading text-muted">My Projects</h3>
           </div>
         </div>
+
         <div class="row">
 
           <div class="col-md-6 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/recipebuilderdesktoppreview.gif" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>RecipeBuilder</h4>
+              <p class="text-muted">Full Stack LAMP React application</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -210,7 +226,7 @@
           </div>
 
           <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fas fa-plus fa-3x"></i>
@@ -223,9 +239,9 @@
               <p class="text-muted">Full Stack CRUD React application</p>
             </div>
           </div>
-
         </div>
       </div>
+      
     </section>
 
 
@@ -307,9 +323,71 @@
     </footer>
 
     <!-- Portfolio Modals -->
-
     <!-- Modal 1 -->
+
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-dark">
+          <div class="close-modal " data-dismiss="modal">
+            <div class="lr border border-light">
+              <div class="rl border border-light"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body mx-auto bg-light">
+                  <!-- Project Details Go Here -->
+                  <h3 class="text-uppercase">RecipeBuilder</h3>
+                  <p class="item-intro text-muted">
+                    A Full-Stack LAMP React single-page application that allows you to build recipes based on the ingredients you have.
+                  </p>
+                  <img class="img-fluid" src="img/portfolio/recipebuilderdesktoppreview.gif" alt="">
+                  <div class="row mx-auto mb-3">
+                    <div class="col-12 col-md-6 mx-auto text-left px-0">
+                      <ol>
+                        <h5>Features</h5>
+                        <li>User can log in as guest</li>
+                        <li>User can select ingredients to use to search Recipe Database.</li>
+                        <li>User can select recipes based on the selected ingredients.</li>
+                        <li>User can can view recipes and add to favorites.</li>
+                        <li>User can view favorite recipes and remove from selected recipes</li>
+                      </ol>
+                    </div>
+
+                    <div class="col-12 col-md-6 mx-auto text-left px-0">
+                      <ol>
+                        <h5>Technologies Used</h5>
+                        <li>React</li>
+                        <li>CSS</li>
+                        <li>Bootstrap 4</li>
+                        <li>PHP</li>
+                        <li>SQL</li>
+                        <li>MySQL</li>
+                        <li>Webpack, Ubuntu, Apache2, Postman</li>
+                      </ol>
+                    </div>
+                  </div>
+
+                  <ul class="list-inline">
+                    <li>Date: February 2020</li>
+                    <li>Github: <a class="text-info" href="https://github.com/Noelcarino/recipebuilder" target="_blank"><u>Visit Github</u></a></li>
+                    <li>Live: <a class="text-info" href="http://recipebuilder.noelcarino.com" target="_blank"><u>Visit Application</u></a></li>
+                  </ul>
+                  <button class="btn btn-primary mx-auto" data-dismiss="modal" type="button">
+                    <i class="fas fa-times"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content bg-dark">
           <div class="close-modal " data-dismiss="modal">
@@ -326,9 +404,9 @@
                   <p class="item-intro text-muted">
                     A Full Stack LAMP & React single-page ecomerce web application where you can shop for Disney Tsum Tsum products!
                   </p>
+
                   <img class="img-fluid" src="img/portfolio/tsumtsumshop-preview.gif"  alt="">
-                  
-                  <div class="row mx-auto mb-3 border">
+                  <div class="row mx-auto mb-3">
                     <div class="col-12 col-md-6 mx-auto text-left px-0">
                       <ol >
                         <h5>Features</h5>
@@ -361,7 +439,8 @@
                   </ul>
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Close Project
+                  </button>
                 </div>
               </div>
             </div>
@@ -370,8 +449,8 @@
       </div>
     </div>
 
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content bg-dark">
           <div class="close-modal " data-dismiss="modal">
@@ -382,7 +461,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto">
-                <div class="modal-body mx-auto bg-light">
+                <div class="modal-body mx-auto bg-light"> 
                   <!-- Project Details Go Here -->
                   <h3 class="text-uppercase">Student Grade Table</h3>
                   <p class="item-intro text-muted">
